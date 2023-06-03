@@ -1,0 +1,10 @@
+server:
+    port: 8083
+spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5433/first_db
+      username: postgres
+      password: postgres
+    jpa:
+        hibernate:
+            ddl-auto: create
